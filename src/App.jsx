@@ -21,9 +21,10 @@ function App() {
       <h1>Puppy Pals</h1>
       <div id="flexContainer">
         <div className="featured">
+          <h2>Featured Pup</h2>
           {featPupId && (
             <div>
-              <h2>{featuredPup.name}</h2>
+              <h3>{featuredPup.name}</h3>
               <ul>
                 <li>Age: {featuredPup.age}</li>
                 <li>Email: {featuredPup.email}</li>
@@ -34,6 +35,7 @@ function App() {
           )}
         </div>
         <div id="puppyList">
+          <h2>Puppies</h2>
           {puppies.map((puppy) => {
             return (
               <p

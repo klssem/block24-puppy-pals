@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+body{
+  background-color: rgb(17, 15, 60);
+  color: azure;
+  font-family: sans-serif;
+}
+
 #flexContainer{
   display: flex;
   flex-direction: row-reverse;
@@ -14,20 +20,33 @@
 
 .featured{
   background-color: aqua;
+  color: black;
   width: 300px;
-  height: 150px;
-  border: 3px solid black;
+  height: 250px;
+  border: 3px solid rgb(224, 172, 233);
   border-radius: 10px;
   font-size: 1.1em;
+}
+.featured h2{
+  margin: 0 0 0 0;
+  text-decoration: underline;
+}
+.featured h3{
+  margin-top: 30px;
 }
 
 #puppyList{
   background-color: rgb(206, 182, 229);
-  color: rgb(146, 238, 191);
+  color: rgb(0, 0, 0);
   font-weight: bold;
   margin-right: 20px;
   width: 350px;
-  border: 3px solid black;
+  border: 3px solid rgb(97, 237, 240);
   border-radius: 10px;
   font-size: 1.3em;
+}
+
+#puppyList h2{
+  text-decoration: underline;
+  margin-top: 0;
 }
